@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+.main_header {
+    background-color: #212121;
+    padding: 10px 5%
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socail-link {
+    color: #fff;
+}
+.main-navigation ul {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-bottom: 0;
+}
+.main-navigation ul li a {
+    font-size:16px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.socail-link ul {
+    display: flex;
+    align-items: center;
+    gap:15px; 
+    margin-bottom: 0;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    gap:15px; 
+     
+}
+.creemy-btn a {
+    background-color: #C89E86;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.trasparent-btn a {
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.socail-link ul li, .socail-link ul li {list-style: none;}
+.logo_seac img {
+    width: 130px;
+    max-width: 100%;
+    object-fit: contain;
+}
+/* banner sectuojb */
+.banner-container {
+    position: relative;
+}
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 50%;
+}
+.hero-content h3 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.hero-content p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+   
+}
+.banner-container  img {
+    width: 100%;
+    object-fit: cover;
+}
+.dermal-row{
+    display: flex;
+    align-items: center;
+}
+.dermal-column{
+    width: 50%;
+}
+.dermal-section{
+    background: #C89E86;
+}
+.dermal_content{
+    width: 80%;
+    margin: 0 auto;
+}
+.dermal_content h2{
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.dermal_content p{
+    font-size:16px;
+    color: #fff;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+.dermal_image img{
+    width: 100%;
+    object-fit: cover;
+}
+.dermal_content .trasparent-btn a{
+    border-radius: 100px;
+    padding: 6px 15px;
+}
+.anti-section{
+    background: #645E48;
+}
+.anti-section .dermal-row{
+    flex-direction: row-reverse;
+}
+.chemical-section{
+    background-color: #27292B;
+}
+.dermal_content .header-btn .trasparent-btn a{
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.reju-section{
+    background-color: #E0D3C5;
+}
+.reju-section .dermal-row{
+    flex-direction: row-reverse;
+}
+.testimonial_col {
+    background: #ECECEC;
+    padding: 20px;
+    border-radius: 10px;
+}
+.date_section {
+    display: flex;
+}
+.date_sec p{
+    text-align: right;
+}
+.date_sec {
+    margin-left: auto;
+}
+.testimonial-title h3 {
+    font-size: 25px;
+}
+.profile_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile_name h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+.client_say {
+    padding: 80px;
+}
+.client_say h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.gallery{
+    background-color: #27292B;
+}
+.before_gallery img{
+    width: 100%;
+    height: auto;
+}
+.about_beauty{
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 80px;
+}
+.about_beaut .product{
+    width: 40%;
+}
+.product_img{
+    width: 60%;
+    padding: 0px 0px 30px 90px;
+    position: relative;
+}
+.product_img img::after{
+    content: "";
+    width: 60%;
+    position: absolute;
+    border: 1px solid black;
+    border-left: 0px solid;
+    z-index: 1;
+}
+.product_img img{
+    width: 480px;
+    height: 360px;
+}
+.product .trasparent-btn a{
+    border: 1px solid black;
+    color: black;
+}
+.product p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+.product h2{
+    font-size: 50px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+.social_media{
+    background-color: #c89e86;
+    padding: 80px 0;
+}
+.insta_row{
+    display: flex;
+    align-items: center;
+}
+.insta_col{
+    border: 0px solid #fff;
+    position: relative;
+    transition: ease 0.7s;
+}
+.insta_img {
+    position: relative;
+    transition: ease 0.7s;
+}
+.insta_img img{
+    height: auto;
+    max-width: 100%;
+}
+.insta_icon{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    display: flex;
+    visibility: hidden;
+    left: 49%;
+}
+.insta_icon:hover{,
+visibility: visible;
+}
+.insta_icon a{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.follow h4{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.follow h5{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #27292b;
+}
+.logo_section img {
+    width: 170px;
+}
+.information{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.container_info{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.footer_container_section{
+    display: flex;
+    justify-content: space-between;
+}
+.scroll_icon{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.scroll_icon a{
+    color: #fff;
+    text-decoration: none;
+}
+.scroll_icon a i{
+    margin-right: 10px;
+}
+.scroll_icon a:hover{
+    color: #c89e86;
+    text-decoration: none;
+}
+.logo_section{
+    width: 25%;
+}
+.footer_service h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer_menu_container ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.footer_menu_container ul li{
+    margin-bottom: 10px;
+}
+.footer_menu_container ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_menu_container ul li a:hover{
+    text-decoration: none;
+    color: #c89e86;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.useful_section h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.useful_menu ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.useful_menu ul li{
+    margin-bottom: 10px;
+}
+.useful_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.useful_menu ul li a:hover{
+    text-decoration: none;
+    color: #c89e86;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.contact_section h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contact_section ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.contact_section ul li{
+    margin-bottom: 10px;
+    color: #fff;
+}
+.contact_section ul li i{
+    margin-right: 10px;
+    color: #C89E86;
+}
+.contact_section ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact_section ul li a:hover{
+    text-decoration: none;
+    color: #c89e86;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.brand_name{
+    padding: 15px 0 20px;
+    border-top: 1px solid #585555;
+}
+.brand_name p{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.brand_name p a{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+.brand_name p a:hover{
+    color: #c89e86;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
